@@ -9,11 +9,11 @@
 </head>
 <body>
 <form action = "editGalleryItemServlet" method="post">
-Title: <input type ="text" name = "title" value= "${itemToEdit.title}">
-Artist Name: <input type = "text" name = "artistName" value= "${itemToEdit.artistName}">
-Media: <input type = "text" name = "media" value= "${itemToEdit.media}">
-Year: <input type = "text" name = "year" value= "${itemToEdit.year}">
-Value: <input type = "text" name = "value" value= "${itemToEdit.value}">
+Title: <input type ="text" name = "title" value= "${itemToEdit.title}"><br/>
+Artist Name: <input type = "text" name = "artistName" value= "${itemToEdit.artistName}"><br/>
+Media: <input type = "text" name = "media" value= "${itemToEdit.media}"><br/>
+Year: <input type = "text" name = "year" value= "${itemToEdit.year}"><br/>
+Value: <input type = "text" name = "value" value= "${itemToEdit.value}"><br/>
 
 
 <input type = "hidden" name = "id" value="${itemToEdit.id}">
